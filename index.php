@@ -24,7 +24,8 @@
   <h3>About Multigrain Studios</h3><p>Explainer or explanation Video, Animations,  Marketing video, RSA Animation, Scribe Videos, Explainer Video Companies Video Explainer Video,  Scribing White Board Animation, Whiteboard Animation, Whiteboard Whiteboard Animation Videos</p>
    <!--<h3><a href='../pages/page2.php'>Storyboard Generator</a></h3>-->
    <p><a href='mailto:paul@multigrainstudios.com'>Contact us</a></p>
-  
+  <?php include_once("includes/footer.php") ?>
 </div>
+
 </body>
 </html>
