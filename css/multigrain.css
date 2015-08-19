@@ -1,0 +1,387 @@
+@charset "utf-8";
+/* CSS Document */
+#goForm label.error {
+		//margin-left: 253px;
+	}
+#goForm input.submit{width:100%;
+margin-left:0px;}
+a {
+    text-decoration: none;
+	//color: #FFFFFF;
+	//background-color:#61FF00;
+	border:thin #491D00 solid;
+	border-radius:5px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.anchorLink{border:none;}
+
+a:hover{background-color:white;}
+#accordion li:hover{background-color:#b89b5f!important;}
+#accordion {font-size:14px;}
+.agree{
+	width:850px;
+	text-align:center;
+	padding:12px;
+	border: thin gray solid;
+}
+
+#approve{
+
+	background-color: #008AEF;
+	text-align: center;
+	cursor: pointer;
+	font-size: 24px;
+	line-height:30px;
+	padding-top:30px;
+	color: white;
+	margin-top: 10px;
+	margin-right:10px;
+	height:50px;
+	width:310px;
+	float:right;
+	-webkit-box-shadow: inset 2px 2px 2px;
+	box-shadow: inset 2px 2px 2px;
+}
+#approve:hover{
+	background-color:#1AFF00;
+}
+
+body,td,th {
+	font-family:Arial;
+	font-size: 16px;
+	font-weight:normal;
+	}
+.bigList{
+	color:red;
+	}
+.bbiz{
+	width:630px;
+	
+	}
+.biz:hover{
+	background-color: #D0971C;
+}
+.biz{
+	cursor:pointer;
+	width:200px;
+	height:30px;
+	text-align: center;
+	line-height:30px;
+	color:white;
+	font-size:20px;
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+	background-color:#ecb745;
+	border-radius:8px;
+	}
+.bottom{margin-top:25px;
+padding-top:15px;
+margin-bottom:20px;
+//border: thin red solid;}
+
+.clearit{
+	border-top:thin gray solid;
+	padding-top:5px;
+	margin-bottom:20px;
+	clear:both;
+	}
+
+
+
+.contact{
+	border: thin #e2762e solid;
+	float: right;
+	width: 200px;
+	border-radius: 8px;
+	margin-top:10px;
+	}
+#contBtn{
+	margin-top:10px;
+	display:inline-block;
+	line-height:25px;
+	height:25px;
+	width:170px;;
+	background-color:#e2762e;}
+.control{
+	margin-top:10px;
+	width:850px;
+	height:25px;
+	float:left;
+	text-align:center;
+}
+.counter{
+	background-color:#42FF00;
+	width:325px;
+	float:right;
+	color:white;
+	text-align:center;
+	}
+
+.eula{
+	width:850px;
+	height:400px;
+	overflow-y:scroll;
+	margin-bottom:12px;
+	margin-top:12px;
+	//border:thin red solid;
+	}	
+#formDiv{
+	//visibility:hidden;
+	};
+.footer{
+	background-color:#FFAE00;
+	border:thin red solid;
+	}
+.footer a{
+	margin-left:5px;
+	color:#b89b5f!important;
+	background-color:white!important;
+	}
+.forWho{width:200px;
+float:left;
+text-align:left;}
+.generic{
+	display:none;
+	}
+
+h3{
+	color:#b89b5f;
+	}
+img{
+	//border: thin red solid;
+	}
+
+.image{
+	width:320px;
+	float:right;
+	height:160px;
+	//border:thin red solid;
+	}
+label {
+    //display: inline-block;
+   // height: 25px;
+    line-height: 22px;
+	float:left;
+	text-align:right;
+	width:110px;
+	font-size:12px;
+	//border:thin red solid;
+    //padding: 0 0 0 30px;
+}
+
+.logo{
+	float:right;
+	width:230px;
+	height:auto;
+	padding-top:10px;
+	text-align:center;
+	}
+
+#makePay{
+	border:thin gray solid;
+	cursor:pointer;
+	background-color:gray;
+	color:white;
+	padding:5px;
+}
+#menu{
+	margin-top: 10px;
+	border-radius: 8px;
+	background-color: #b89b5f
+}<!--tan color-->
+
+#menu a:link{color:white; !important}
+
+.modal{
+	position:absolute;
+	width:310px;
+	//max-height:170px;
+	border-radius:10px;
+	border:thin solid #BDBDBD;
+	background-color:white;
+	//overflow-y:scroll;
+	}
+.modal li li {cursor:pointer;}
+.modal li li:hover{background-color:#FFA600;}
+
+#nope{
+	width:400px;
+	background-color:#DBBE2B;
+	color:white;
+	}
+.normLink{color:#DBBE2B;
+background-color:white;}
+
+#outro{border:none!important;}
+.piece{
+	width:600px;
+	height:175px;
+	float:left;
+	}
+#picList{
+	float:left;
+	text-align:left;}
+.pix{
+	float:right;
+	width:240px;
+	height:200px;
+	border-radius:25px;
+	//border:thin solid #C8C8C8;
+	margin-bottom:10px;
+	text-align:center;
+	}
+.reset:hover{
+	background-color: #BC6300;
+}
+.reset{
+	display:inline-block;
+	text-align:center;
+	width:490px;
+	float:left;
+	cursor: pointer;
+	color: white;
+	padding: 5px;
+	background-color: #FC8807;
+}
+
+.section{
+	margin-top:10px;
+	padding:10px;
+	border-bottom:thin gray solid;
+	}
+.sendForm{float:left;
+width:400px;
+padding:20px;
+text-align:center;}
+
+#sendIt:hover{
+	background-color:#4055D3;
+	}
+#sendIt{
+	display:inline-block;
+	margin-left:-20px;
+	background-color:#FFBE00;
+	//cursor:pointer;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+	color:white;
+	text-align:center;
+	}
+
+#showForm{
+	display:block;
+	background:#4055D3;
+	color:white;
+	padding:5px;
+	}
+.showT:hover{
+	background-color: #40B900;
+}
+.showL{
+	cursor:pointer;
+	display:inline-block;
+	color:white;
+	width:90px;
+	padding:5px;
+	background-color:#0190F8;}
+	
+.showL:hover{
+	background-color: #0063AB;
+}
+.showP:hover{
+	background-color: #C1AE00;
+}
+.showP{
+	cursor:pointer;
+	display:inline-block;
+	width:90px;
+	color:white;
+	padding:5px;
+	background-color:#FFE500;}
+
+.showT{
+	cursor:pointer;
+	display:inline-block;
+	color:white;
+	width:90px;
+	padding:5px;
+	background-color:#59FF00;
+	}
+.starter{
+	background-color:white;
+	width:480px;
+	text-align:left;
+	//border:thin red solid;
+	
+	}
+#test{visibility:hidden;}
+.text{
+	width: 480px;
+	height: 160px;
+	overflow-y: auto;
+	overflow-x:hidden;
+	float: left;
+	padding: 10px;
+	text-align:left;
+	background-color: #ECECEC;
+	border-radius:8px;
+}
+.topLink{margin-left:6px;
+margin-right:6px;
+font-size:12px;}
+.words{
+	width:285px;
+	float:right;
+	height: 140px;
+	font-size:18px;
+	color:#474747;
+	display: none;
+	text-align:center;
+	padding:20px 20px 0px 20px;
+	background-image:url(/graphics/word_bg.png)
+	}	
+.wrapper{
+	margin-left:auto;
+	margin-right:auto;
+	width:850px;
+	//border:thin red solid;
+	text-align:center;
+}
+.warn{
+	color:red;
+	font-size:14px;
+	}
+#webPix{
+	padding-top:10px;
+	}
+.picture{float:left;
+width:200px;
+height:200px;
+//border:thin red solid;}
+.script{width:620px;
+//border: thin red solid;
+float:right;
+
+}
+.written{}
+
+@media print {
+	a {border:none;
+	text-decoration:none;}
+	.wrapper{width:640px;}
+	.script{width:400px;
+	font-size:12px;}
+	.pagebreak { page-break-after: always; }
+    p {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+

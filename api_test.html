@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<style type="text/css">
+      html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
+    </style>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAS4jTS56nKcOAVgHAb1yKJ8UiVWs6deXw">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+		  showPosition(position);
+		 alert(position.coords.latitude); 
+		  
+        var mapOptions = {
+          center: { lat: 40.633000, lng: -74.804000},
+          zoom: 24,
+		  mapTypeId: google.maps.MapTypeId.SATELLITE
+        };
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  
+    <script>
+//var x = document.getElementById("demo");
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        document.getElementById("demo").innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+function showPosition(position) {
+    document.getElementById("demo").innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude; 
+}
+
+
+
+</script>
+
+
+  </head>
+  <body>
+<div id="map-canvas"></div>
+
+  </body>
+ 
+</html>
